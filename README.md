@@ -33,4 +33,5 @@
 
 ## Tutorial Video
 
-* [My own showcase and usage tutorial](https://youtu.be/nXUNO1AUUR0)
+* [![My Own Tutorial](https://markdown-videos.deta/youtube/{video_id})](https://www.youtube.com/watch?v=nXUNO1AUUR0)
+

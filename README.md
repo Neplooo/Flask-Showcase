@@ -33,4 +33,4 @@
 
 ## Tutorial Video
 
-* Coming Soon!
+* [My own showcase and usage tutorial](https://youtu.be/nXUNO1AUUR0)

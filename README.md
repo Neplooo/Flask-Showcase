@@ -33,5 +33,4 @@
 
 ## Tutorial Video
 
-* [![](https://markdown-videos.deta/youtube/nXUNO1AUUR0)](https://www.youtube.com/watch?v=nXUNO1AUUR0)
-
+* [My Tutorial](https://www.youtube.com/watch?v=nXUNO1AUUR0)

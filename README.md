@@ -15,8 +15,9 @@
 ## How to use
 
 1. Clone the github repo.
-2. On the raspberry pi, run the program with root privleges.
+2. On the raspberry pi, run GPIOFlask.py with root privleges.
 3. Go to 0.0.0.0:5000 and you will be at the home page.
+4. Enjoy!
 
 ---
 

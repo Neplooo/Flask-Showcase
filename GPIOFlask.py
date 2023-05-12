@@ -27,7 +27,7 @@ strip.begin()
 
 app = Flask(__name__)
 
-#Define Servo Pin (Raw PWM)
+#Define Servo Pin
 servoPin = 17
 
 #Define Servo (GPIOZero)
@@ -36,7 +36,7 @@ servo = AngularServo(servoPin, min_angle=-180, max_angle=180)
 #Set our GPIO mode
 GPIO.setmode(GPIO.BCM)
 
-#Default gateway (Nothing)
+#Default gateway (Main Menu)
 @app.route("/")
 def mainMenu():
     

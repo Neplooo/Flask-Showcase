@@ -22,3 +22,14 @@
 
 ## Sample Images
 
+![image](https://github.com/Neplooo/Flask-Showcase/assets/113266554/550da48d-6c69-4a74-baec-d96e702a71ae)
+
+![image](https://github.com/Neplooo/Flask-Showcase/assets/113266554/b755658f-3ba2-4161-b763-60b76fb2e07c)
+
+![image](https://github.com/Neplooo/Flask-Showcase/assets/113266554/0eae56c5-0d76-4eea-a4e2-d8e5970dafde)
+
+---
+
+## Tutorial Video
+
+* Coming Soon!

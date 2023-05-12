@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+        <meta charset="UTF-8">
+        <title>Color Picker</title>
+        <link rel="icon" href="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Ficons.iconarchive.com%2Ficons%2Fthesquid.ink%2Ffree-flat-sample%2F1024%2Frubber-duck-icon.png&f=1&nofb=1&ipt=2e788dab91ab364a218b5fa8df5ba09db3e6955292214831c37e46e36be31a58&ipo=images">
+        <meta>
+
+        <body>
+
+
+        <h1 id="default">Pick A Color</h1>
+
+        <form action="#" method="post">
+
+                <label class="colorPicker">
+
+                        <input type="color" name="colorPicker" id="colorPicker"></input>
+
+                        <input type="submit" type="submit" value="Submit" id="submitButton">
+                        
+
+                </label>
+
+        </form>
+        
+        <form action="/">
+        
+			<label class="return">
+			
+				<button style="margin: 5px;">Main Menu</button>
+			
+			</label>
+        
+        </form>
+
+
+        </body>
+
+        <style>
+
+
+            #default {
+
+                color: white;
+                font-family: Helvetica;
+
+            }
+        
+            body{
+
+                text-align: center;
+                background: #333333;
+
+            }
+        
+
+            /* More CSS I took from an opensource website: https://uiverse.io/kirzin/selfish-kangaroo-64 */
+
+            #submitButton {
+                text-decoration: none;
+                position: relative;
+                border: none;
+                font-size: 14px;
+                font-family: Helvetica;
+                color: #fff;
+                width: 9em;
+                height: 3em;
+                line-height: 2em;
+                text-align: center;
+                background: linear-gradient(90deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+                background-size: 300%;
+                border-radius: 30px;
+                z-index: 1;
+            }
+
+            #submitButton:hover {
+                animation: ani 8s linear infinite;
+                border: none;
+            }
+
+            
+            @keyframes ani {
+            0% {
+                background-position: 0%;
+            }
+
+            100% {
+                background-position: 400%;
+            }
+            }
+            
+
+            submitButton:before {
+            content: '';
+            position: absolute;
+            top: -5px;
+            left: -5px;
+            right: -5px;
+            bottom: -5px;
+            z-index: -1;
+            background: linear-gradient(90deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+            background-size: 400%;
+            border-radius: 35px;
+            transition: 1s;
+            }
+
+            submitButton:hover::before {
+            filter: blur(20px);
+            }
+
+            submitButton:active {
+            background: linear-gradient(32deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+            }
+        
+        </style>
+
+</html>

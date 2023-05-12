@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Servo Control</title>
+		<link rel="icon" href="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Ficons.iconarchive.com%2Ficons%2Fthesquid.ink%2Ffree-flat-sample%2F1024%2Frubber-duck-icon.png&f=1&nofb=1&ipt=2e788dab91ab364a218b5fa8df5ba09db3e6955292214831c37e46e36be31a58&ipo=images">
+	</head>
+	<body>
+	
+		<h1 id="default">Servo Control</h1>
+	
+		<h3 id="default">Change the servo position</h3>
+	
+		<form action="#" method="post">
+	
+			<label class="slider">
+		
+				<input type="range" name="slider" id="slider" min="-180" max="180">
+				
+				<input id="button" type="submit" value="submit">
+		
+			</label>
+		
+		</form>
+		
+        <form action="/">
+        
+			<label class="return">
+			
+				<button style="margin: 5px;">Main Menu</button>
+			
+			</label>
+        
+        </form>
+	
+	</body>
+	
+	<style>
+	
+	
+		#default {
+			
+			font-family: Helvetica;
+			color: white;
+			
+		}
+		
+		body {
+			
+			background: #333333;
+			text-align: center;
+			
+		}
+		
+		
+		/*--Some Guy's css that I stole to make my button look sexy--*/
+		#button {
+		  position: relative;
+		  padding: 10px 20px;
+		  border-radius: 7px;
+		  border: 1px solid rgb(61, 106, 255);
+		  font-size: 14px;
+		  text-transform: uppercase;
+		  font-weight: 600;
+		  letter-spacing: 2px;
+		  background: transparent;
+		  color: #fff;
+		  overflow: hidden;
+		  box-shadow: 0 0 0 0 transparent;
+		  -webkit-transition: all 0.2s ease-in;
+		  -moz-transition: all 0.2s ease-in;
+		  transition: all 0.2s ease-in;
+		}
+
+		#button:hover {
+		  background: rgb(61, 106, 255);
+		  box-shadow: 0 0 30px 5px rgba(0, 142, 236, 0.815);
+		  -webkit-transition: all 0.2s ease-out;
+		  -moz-transition: all 0.2s ease-out;
+		  transition: all 0.2s ease-out;
+		}
+
+		#button:hover::before {
+		  -webkit-animation: sh02 0.5s 0s linear;
+		  -moz-animation: sh02 0.5s 0s linear;
+		  animation: sh02 0.5s 0s linear;
+		}
+
+		#button::before {
+		  content: '';
+		  display: block;
+		  width: 0px;
+		  height: 86%;
+		  position: absolute;
+		  top: 7%;
+		  left: 0%;
+		  opacity: 0;
+		  background: #fff;
+		  box-shadow: 0 0 50px 30px #fff;
+		  -webkit-transform: skewX(-20deg);
+		  -moz-transform: skewX(-20deg);
+		  -ms-transform: skewX(-20deg);
+		  -o-transform: skewX(-20deg);
+		  transform: skewX(-20deg);
+		}
+
+		@keyframes sh02 {
+		  from {
+			opacity: 0;
+			left: 0%;
+		  }
+
+		  50% {
+			opacity: 1;
+		  }
+
+		  to {
+			opacity: 0;
+			left: 100%;
+		  }
+		}
+
+		#button:active {
+		  box-shadow: 0 0 0 0 transparent;
+		  -webkit-transition: box-shadow 0.2s ease-in;
+		  -moz-transition: box-shadow 0.2s ease-in;
+		  transition: box-shadow 0.2s ease-in;
+		}
+			
+			
+	
+	</style>
+	
+
+</html>
+

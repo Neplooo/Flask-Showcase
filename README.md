@@ -34,3 +34,5 @@
 ## Tutorial Video
 
 * [My Tutorial](https://www.youtube.com/watch?v=nXUNO1AUUR0)
+
+![YT Thumbnail 5](https://github.com/Neplooo/Flask-Showcase/assets/113266554/7db8dae7-ad20-4bac-8000-33c9b15a7759)
